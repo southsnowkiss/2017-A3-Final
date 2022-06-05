@@ -1,0 +1,82 @@
+/* footer*/
+.footer{
+	width: 100%;
+	min-width: 1004px;
+	margin-top: 30px;
+	border: 1px solid blue;
+	background-color: red;	
+}
+
+.content::after{
+	content: "";
+	display: block;
+	clear:both;	
+}
+
+.footer .footer-box{
+	width: 1004px;
+	height: 200px;
+	margin: 30px auto;
+	/* border: 1px solid; */
+	overflow: hidden;
+}
+
+.footer .footer-box .footer-list{
+	float: right;
+	width: 9.7%;
+	height: 100%;
+	text-align: center;
+}
+
+.footer .footer-box .footer-list span{
+	font:14px "microsoft yahei";
+	color: white;
+	font-weight: 500;
+	text-align: center;
+}
+
+.footer .footer-box .footer-list ul{
+	width: 100%;
+	height: 135;
+	margin-top: 15px;
+	
+}
+
+.footer .footer-box .footer-list a{
+	font-size: 11px;
+	color: white;
+	line-height: 2em;
+}
+
+.footer .footer-box .footer-list ul li img{
+	width: 100px;
+	margin: 0 auto;
+	margin-left: 20px;
+}
+
+.footer .copy{
+	position: relative;
+	height: 50px;
+	width: 1004px;
+	bottom: 10px;
+	margin-top: 25px;
+	line-height: 50px;
+	margin: 0 auto;
+	border-top: 1px solid #e6e6e6;
+}
+
+.footer .copy span{
+	height: 30px;
+	font: 15px;
+	color: black;
+    text-align: left;
+	
+}
+
+.footer .copy a{
+	text-decoration: none;
+	font: 15px;
+	color: black;
+	
+}
+
