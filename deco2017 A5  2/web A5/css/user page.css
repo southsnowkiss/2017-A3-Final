@@ -1,0 +1,49 @@
+.form1 {
+    width: 400px;
+    height: 800px;
+    margin: 20px auto;
+    border: 1px solid red;
+    background: #8b1f54;
+    text-align: center;
+}
+
+.form1 h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.form1 h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.r {
+    text-align: left;
+}
+
+.c {
+    text-align: left;
+}
+
+.form2 {
+    width: 132px;
+    height: 65px;
+    border: 1px solid red;
+    margin-left: 162px;
+}
+
+.btn {
+    width: 400px;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    background-color: red;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: .3s;
+}
+
+.btn:hover {
+    color: #8b1f54;
+}
